@@ -1,0 +1,15 @@
+package com.localproducts.dto.regionDto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+@Data
+public class RegionResponse {
+    private Long id;
+    private String name;
+}
